@@ -247,6 +247,8 @@ async function generalCommands(message, splitMessage) {
       let msg = verRanking(username);
       message.reply(msg);
     }
+  } else if (splitMessage[0] == "*convite" || splitMessage[0] == "!convite") {
+    message.reply("Está aqui o seu convite https://caverna.live/discord");
   }
 }
 
